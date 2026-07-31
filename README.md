@@ -2,6 +2,10 @@
 
 **Senior Automation Engineer & QA Lead**
 
+[linkedin.com/in/xquang-doan](https://linkedin.com/in/xquang-doan) &nbsp;•&nbsp; [github.com/zerah-doan](https://github.com/zerah-doan) &nbsp;•&nbsp; (+84) 888-688448 &nbsp;•&nbsp; [doanxuanquang9@gmail.com](mailto:doanxuanquang9@gmail.com)
+
+---
+
 ## Professional Summary
 
 * **Senior Automation Engineer & QA Lead** with over a decade of expertise in Software Quality Assurance, specializing in manual and advanced automated testing solutions.
