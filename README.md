@@ -1,3 +1,5 @@
+<img src="profile.jpg" alt="Quang Doan" width="160" height="160" style="border-radius:50%;" align="right" />
+
 # Quang Doan
 
 **Senior Automation Engineer & QA Lead**
@@ -21,8 +23,7 @@
     * *API & Microservices:* Postman, SoapUI, JMeter, Bruno
     * *Performance & Non-Functional:* JMeter, Locust, Accessibility compliance
 * **Engineered CI/CD pipelines** by integrating automated test suites into Agile and DevOps processes using Azure DevOps, GitLab CI/CD, GitHub Actions, and Jenkins.
-* * **Advanced technical proficiency** in RDBMS, NoSQL, Git version control, Unix-like environments, and containerized testing using Docker & Kubernetes across Cloud platforms (AWS/Azure).
-
+* **Advanced technical proficiency** in RDBMS, NoSQL, Git version control, Unix-like environments, and containerized testing using Docker & Kubernetes across Cloud platforms (AWS/Azure).
 
 ---
 
@@ -39,7 +40,7 @@
 - **Developed custom internal tools** and utilities to automate complex test data queries, account lifecycle creation, and state maintenance, optimizing team velocity.
 - **Collaborated on the design and review of shared automation architectures** used across global engineering teams, providing technical mentorship, code reviews, and training to junior team members.
 
-**Tech stack:** Playwright (TypeScript core), C#, NUnit, Selenium WebDriver, Appium, Sauce Labs, Azure DevOps, GitLab CI/CD, Docker, Langfuse, GitHub, Generative AI (Claude Code/Copilot).
+**Tech stack:** Playwright (TypeScript core), C#, NUnit, Selenium WebDriver, Appium, Sauce Labs, Azure DevOps, GitLab CI/CD, Docker, Langfuse, Bruno, GitHub, Generative AI (Claude Code/Copilot).
 
 ### Senior Automation QA Engineer — Hansen Technologies, Ho Chi Minh City
 *09/2017 – 04/2019*
