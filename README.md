@@ -99,3 +99,9 @@
 
 ### Bachelor of Software Engineering — FPT University, Ho Chi Minh City
 *09/2009 – 06/2013*
+
+---
+
+## References
+
+References available upon request.
