@@ -1,10 +1,19 @@
-<img src="profile.jpg" alt="Quang Doan" width="160" height="160" style="border-radius:50%;" align="right" />
+<table>
+<tr>
+<td>
 
 # Quang Doan
 
 **Senior Automation Engineer & QA Lead**
 
 [linkedin.com/in/xquang-doan](https://linkedin.com/in/xquang-doan) &nbsp;•&nbsp; [github.com/zerah-doan](https://github.com/zerah-doan) &nbsp;•&nbsp; (+84) 888-688448 &nbsp;•&nbsp; [doanxuanquang9@gmail.com](mailto:doanxuanquang9@gmail.com)
+
+</td>
+<td width="180" align="right">
+<img src="profile.jpg" alt="Quang Doan" width="160" height="160" />
+</td>
+</tr>
+</table>
 
 ---
 
