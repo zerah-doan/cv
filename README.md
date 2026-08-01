@@ -1,6 +1,6 @@
 <p align="right">
   <a href="https://github.com/zerah-doan/cv/raw/main/Quang_Doan_CV.pdf">
-    <img src="pdf-download.png" alt="Download PDF" width="120" />
+    <img src="pdf-download.png" alt="Download PDF" width="256" />
   </a>
 </p>
 
