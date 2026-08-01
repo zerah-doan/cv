@@ -1,3 +1,9 @@
+<p align="right">
+  <a href="https://github.com/zerah-doan/cv/raw/main/Quang_Doan_CV.pdf">
+    <img src="https://img.shields.io/badge/Download-PDF-EC1C24?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download PDF" />
+  </a>
+</p>
+
 <table>
 <tr>
 <td>

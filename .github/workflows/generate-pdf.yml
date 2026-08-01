@@ -1,0 +1,51 @@
+name: Generate CV PDF
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'README.md'
+      - 'profile.jpg'
+      - '.github/workflows/generate-pdf.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Setup Chrome
+        id: setup-chrome
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Generate PDF
+        env:
+          PUPPETEER_SKIP_DOWNLOAD: 'true'
+          PUPPETEER_EXECUTABLE_PATH: ${{ steps.setup-chrome.outputs.chrome-path }}
+        run: |
+          npx --yes md-to-pdf README.md \
+            --pdf-options '{ "format": "A4", "margin": "20mm" }' \
+            --launch-options '{ "args": ["--no-sandbox"] }'
+          mv README.pdf Quang_Doan_CV.pdf
+
+      - name: Commit updated PDF
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add Quang_Doan_CV.pdf
+          if git diff --staged --quiet; then
+            echo "PDF unchanged, nothing to commit."
+          else
+            git commit -m "chore: regenerate CV PDF [skip ci]"
+            git push
+          fi
