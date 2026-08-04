@@ -2,11 +2,11 @@ name: Generate CV PDF
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
     paths:
-      - 'README.md'
-      - 'profile.jpg'
-      - '.github/workflows/generate-pdf.yml'
+      - "README.md"
+      - "profile.jpg"
+      - ".github/workflows/generate-pdf.yml"
   workflow_dispatch:
 
 permissions:
@@ -22,7 +22,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
 
       - name: Setup Chrome
         id: setup-chrome
@@ -30,7 +30,7 @@ jobs:
 
       - name: Generate PDF
         env:
-          PUPPETEER_SKIP_DOWNLOAD: 'true'
+          PUPPETEER_SKIP_DOWNLOAD: "true"
           PUPPETEER_EXECUTABLE_PATH: ${{ steps.setup-chrome.outputs.chrome-path }}
         run: |
           npx --yes md-to-pdf README.md \
