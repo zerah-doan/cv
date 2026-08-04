@@ -1,4 +1,4 @@
-<p align="right">
+<p align="right" class="no-print">
   <a href="https://github.com/zerah-doan/cv/raw/main/Quang_Doan_CV.pdf">
     <img src="pdf-download.png" alt="Download PDF" width="200" />
   </a>

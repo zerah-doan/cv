@@ -34,6 +34,7 @@ jobs:
           PUPPETEER_EXECUTABLE_PATH: ${{ steps.setup-chrome.outputs.chrome-path }}
         run: |
           npx --yes md-to-pdf README.md \
+            --css '.no-print { display: none !important; }' \
             --pdf-options '{ "format": "A4", "margin": "20mm" }' \
             --launch-options '{ "args": ["--no-sandbox"] }'
           mv README.pdf Quang_Doan_CV.pdf
