@@ -45,7 +45,7 @@
 ## Experience
 
 ### Senior Software Test Engineer — Visa Inc., Singapore
-*04/2019 – Present*
+*04/2019 – 08/2026*
 
 - **Spearheaded comprehensive QA strategies** and end-to-end quality ownership for core Visa enterprise financial tools.
 - **Architected and scaled automated testing frameworks** across multiple modern ecosystems, prioritizing TypeScript/Playwright for modern web applications and C#/.NET Core for robust backend services.
@@ -98,7 +98,7 @@
 ## Education
 
 ### Bachelor of Software Engineering — FPT University, Ho Chi Minh City
-*09/2009 – 06/2013*
+*09/2009 – 01/2014*
 
 ---
 
